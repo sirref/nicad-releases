@@ -9,12 +9,14 @@ Nicad is a parametric 3D CAD app for Windows, macOS and Linux. You sketch with c
 - **Sketches:**
   - lines, arcs, circles, rectangles, slots, polygons, ellipses, splines and text;
   - geometric constraints and driving dimensions, with trim, extend, offset, mirror and patterns;
-  - 3D sketches for pipes and wires.
+  - 3D sketches for pipes and wires;
+  - sketch templates: draw a shape once (a nut trap, a keyhole slot, a logo), give it parameters, and place it on any sketch's points.
 - **Parts:**
   - extrude, revolve, sweep, loft, rib, holes (tapped, with modelled threads if you want them), shell, draft, fillets (including variable radius) and chamfers;
   - patterns, body tools and construction geometry;
   - direct face edits, which work on imported solids too;
-  - a Surface tab, for shapes that start as surfaces.
+  - a Surface tab, for shapes that start as surfaces;
+  - a history that says what each step is (*on top face of Extrude1*, *Sketch1 · Join · 10 mm*).
 - **Parameters:** names and formulas in any field, shared between parts through parameter files, in millimetres or inches.
 - **Assemblies:**
   - linked parts placed with joints, and sub-assemblies;
@@ -52,6 +54,17 @@ When Nicad opens, the start page has a step-by-step first part and three sample 
 Nicad checks this page for new versions when it starts and every few hours after that. It only tells you when there's one: nothing is downloaded or installed until you say so, and a download you don't install is deleted when you quit.
 - **macOS:** Nicad can't install updates itself yet. Its card brings you here to download the new `.dmg`.
 - **`.deb` and `.rpm` installs:** these are updated by installing the newer package.
+
+## What's coming
+
+Next, roughly in this order (no dates, and plans may change):
+- **More for assemblies:** the bill of materials on drawings, flexible sub-assemblies, and several joints moving together.
+- **Part features:** mitred sweep corners, more loft options, Up To Face onto freeform faces, and shell on freeform faces.
+- **Speed:** faster modelled threads and quicker rebuilds of large parts.
+- **The modelling tolerance as a setting.**
+- **Scripting:** macros in TypeScript to generate parts and automate edits.
+
+Bug fixes come out as they're needed, between these. Tell us what you'd like to see through **Send Feedback…**.
 
 ## Feedback
 
