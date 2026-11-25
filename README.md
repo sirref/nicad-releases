@@ -58,7 +58,8 @@ Nicad checks this page for new versions when it starts and every few hours after
 ## What's coming
 
 Next, roughly in this order (no dates, and plans may change):
-- **More for assemblies:** the bill of materials on drawings, flexible sub-assemblies, and several joints moving together.
+- **Imported meshes you can model on:** turn an STL, OBJ or 3MF into a solid, so it can be cut, joined, filleted and shelled like any part.
+- **More for assemblies:** part numbers and descriptions, flexible sub-assemblies and making one from placed parts, saved motion studies with several joints moving together, and drawings of assemblies with the bill of materials and balloons.
 - **Part features:** mitred sweep corners, more loft options, Up To Face onto freeform faces, and shell on freeform faces.
 - **Speed:** faster modelled threads and quicker rebuilds of large parts.
 - **The modelling tolerance as a setting.**
